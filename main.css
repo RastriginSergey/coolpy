@@ -1,0 +1,45 @@
+.container {
+    margin: 20px auto;
+    width: 300px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+li > div {
+    width: 30%;
+    padding: 5px 10px;
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.current {
+    margin-top: 50px;
+    width: 100%;
+}
+
+.current input[type="text"] {
+    width: 100%;
+}
+
+button {
+    width: 100%;
+    display: inline-block;
+}
+
+.radio {
+    text-align: center;
+}
