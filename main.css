@@ -43,3 +43,8 @@ button {
 .radio {
     text-align: center;
 }
+
+.current-item {
+    background: steelblue;
+    color: white;
+}
